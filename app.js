@@ -65,21 +65,13 @@ const productSchema = mongoose.Schema(
         massage:
           "Status value cann't be {VALUE},must be in stock/out of Stock/discontinued",
       },
+
     },
     supplier: {
       type: mongoose.Schema.Types.ObjectId,
       ref: "Supplier",
     },
-    catagories: [
-      {
-        name: {
-          type: String,
-          required: [true, "Please provide a name"],
-          unique: [true, "Name must be unique"],
-        },
-        _id: mongoose.Schema.Types.ObjectId,
-      },
-    ],
+
     // createdAt: {
     //   type: Date,
     //   default: Date.now,
