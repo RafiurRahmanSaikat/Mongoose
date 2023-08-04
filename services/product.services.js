@@ -28,15 +28,28 @@ exports.blukUpdateService = async (data) => {
     const update = []
 
     data.forEach(product => {
-        update.push(Product.updateOne({ _id: product.id }, product.data))
+        update.push(
+            Product.updateOne(
+                { _id: product.id }, product.data,
+                { new: true, runValidators: true }
+            )
+        )
     });
 
     const result = await Promise.all(update)
-
+    console.log(result)
     // const result = await Product.updateMany({ _id: data.id }, updatedData, { runValidators: true })
 
     return result
 }
 
+exports.deleteAProductService = async (id) => {
+    const result = await Product.deleteOne({ _id: id }, { new: true })
+    return result
+}
+exports.deleteManyProductService = async (data) => {
 
+    const result = await Product.deleteMany({ _id: data })
 
+    return result
+}
