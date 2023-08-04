@@ -1,4 +1,4 @@
-const { getProductService, createProductServices, updateAProductService } = require("../services/product.services");
+const { getProductService, createProductServices, updateAProductService, blukUpdateService } = require("../services/product.services");
 
 exports.getAllProduct = async (req, res, next) => {
 
@@ -37,6 +37,7 @@ exports.createProduct = async (req, res, next) => {
         });
     }
 }
+
 exports.updateAProduct = async (req, res, next) => {
     try {
 
@@ -46,7 +47,7 @@ exports.updateAProduct = async (req, res, next) => {
         res.status(200).send({
             success: true,
             message: "Product Updated successfully",
-            result: result
+            result
         })
 
     }
@@ -54,6 +55,28 @@ exports.updateAProduct = async (req, res, next) => {
         res.status(400).send({
             success: false,
             message: "Product Update failed",
+            error: error.message,
+        })
+    }
+}
+
+
+exports.blukUpdate = async (req, res, next) => {
+    try {
+
+        const result = await blukUpdateService(req.body)
+
+        res.status(200).send({
+            success: true,
+            message: "Bluk Product Update With Same Data Successfully",
+            result
+        })
+
+    }
+    catch (error) {
+        res.status(400).send({
+            success: false,
+            message: "Bluk Product Update With Same Data Failed",
             error: error.message,
         })
     }

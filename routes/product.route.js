@@ -6,6 +6,10 @@ router.route("/")
     .get(productController.getAllProduct)
     .post(productController.createProduct);
 
+
+router.route("/blukUpdates")
+    .patch(productController.blukUpdate)
+
 router.route("/:id")
     .patch(productController.updateAProduct)
 

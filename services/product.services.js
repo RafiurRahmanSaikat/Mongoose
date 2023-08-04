@@ -1,4 +1,4 @@
-const Product = require("../models/Product")
+const Product = require("../models/product.model")
 
 exports.getProductService = async () => {
 
@@ -16,11 +16,25 @@ exports.createProductServices = async (productData) => {
 
 }
 
-
 exports.updateAProductService = async (id, updatedData) => {
 
 
     const result = await Product.findByIdAndUpdate(id, updatedData, { new: true })
+    return result
+}
+
+exports.blukUpdateService = async (data) => {
+
+    const update = []
+
+    data.forEach(product => {
+        update.push(Product.updateOne({ _id: product.id }, product.data))
+    });
+
+    const result = await Promise.all(update)
+
+    // const result = await Product.updateMany({ _id: data.id }, updatedData, { runValidators: true })
+
     return result
 }
 
