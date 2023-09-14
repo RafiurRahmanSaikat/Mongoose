@@ -8,7 +8,7 @@ exports.getAllCategory = async (req, res, next) => {
         const result = await getCategoryService({})
         res.status(200).send({
             success: true,
-            massage: "Successfully get all Category",
+            message: "Successfully get all Category",
             data: result
         })
 
@@ -30,7 +30,7 @@ exports.createACategory = async (req, res, next) => {
         const result = await createACategoryService(req.body)
         res.status(200).send({
             success: true,
-            massage: "Successfully Add the Category",
+            message: "Successfully Add the Category",
             data: result
         })
 

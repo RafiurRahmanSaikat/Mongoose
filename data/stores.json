@@ -1,0 +1,27 @@
+[
+  {
+    "name": "dhaka",
+    "description": "lorem ipsum dolor sit amet, consectetur adip eum. Lorem ipsum dolor sit am et conet ullam. Lorem ipsum dolor sit am et con net ullam. Lorem ipsum dolor sit am et conet ullam. Lorem  sociis natoque",
+    "manager": {
+      "name": "Manager Daku",
+      "contactNumber": "01717525563"
+    }
+  },
+  {
+    "name": "rajshahi",
+    "description": "lorem ipsum dolor sit amet, consecpsum dolor sit am et conet ullam. Lorem  sociis natoque penatibus et just euismod. Lorem ipsum dolor sit am et conet ullam. Lorem ipsum dolor sit am et con et ullam. Lorem ipsum dolor sit am et con",
+    "manager": {
+      "name": "Manager Raj",
+      "contactNumber": "01717520003"
+    },
+    "status": "in-active"
+  },
+  {
+    "name": "sylhet",
+    "description": "lorem ipsum dolor sit amet, consectetur adip eum. Lorem ipsum dolor sit am et conet ullam. Lorem ipsum dolor sit am et con et ullam. Ldolor sit am et con et ullam. Lorem ipsum dolor sit am et con",
+    "manager": {
+      "name": "Manager Shy",
+      "contactNumber": "01717520000"
+    }
+  }
+]

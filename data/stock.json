@@ -1,96 +1,169 @@
 [
 	{
-		"name": "Pran Chinigura Aromatic Rice - 5kg Bag",
+		"productId": "65004b11abd70aab88212af8",
+		"price": 120,
+		"name": "pran chinigura aromatic rice - 5kg bag",
 		"description": "Pran Chinigura Aromatic Rice (Polau). Fresh and Clean, Vacuum Packed. Pran Chinigura Rice can be use in Biriyani, Polau, Firni, Kheer, Khichuri.",
-		"imageURLs": [
-			"https://chaldn.com/_mpimage/pran-nazirshail-rice-5-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D48089&q=low&v=1&m=400&webp=1",
-			"https://chaldn.com/_mpimage/pran-nazirshail-rice-5-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D48089&q=low&v=1&m=400&webp=1"
-		],
 		"unit": "bag",
 		"quantity": 1200,
+		"imageURLs": [
+			"https://chaldn.com/_mpimage/pran-nazirshail-rice-5-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D48089&q=low&v=1&m=400&webp=1",
+			"https://chaldn.com/_mpimage/pran-nazirshail-rice-5-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D48089&q=low&v=1&m=400&webp=1"
+		],
 		"category": "Rice",
 		"brand": {
 			"name": "Pran",
 			"id": "64fb1f2908685a1bed9af0f4"
-		}
+		},
+		"store": {
+			"name": "dhaka",
+			"id": "64fb204e2e4d38ec4259132f"
+		},
+		"suppliedBy": {
+			"name": "mezbaul abedin persian",
+			"id": "64fb5e2d391a368c9dd74ad7"
+		},
+		"status": "in-stock",
+		"sellCount": 170
 	},
+
 	{
-		"name": "Pran Chinigura Aromatic Rice - 50kg",
+		"productId": "65004b11abd70aab88212af9",
+		"price": 120,
+		"name": "pran chinigura aromatic rice - 50kg",
 		"description": "Pran Chinigura Aromatic Rice (Polau). Fresh and Clean, Vacuum Packed. Pran Chinigura Rice can be use in Biriyani, Polau, Firni, Kheer, Khichuri.",
+		"unit": "bag",
+		"quantity": 10,
 		"imageURLs": [
 			"https://chaldn.com/_mpimage/pran-nazirshail-rice-5-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D48089&q=low&v=1&m=400&webp=1",
 			"https://chaldn.com/_mpimage/pran-nazirshail-rice-5-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D48089&q=low&v=1&m=400&webp=1"
 		],
-		"unit": "bag",
 		"category": "Rice",
-		"quantity": 10,
 		"brand": {
 			"name": "Pran",
 			"id": "64fb1f2908685a1bed9af0f4"
-		}
+		},
+		"store": {
+			"name": "sylhet",
+			"id": "64fb20572e4d38ec42591331"
+		},
+		"suppliedBy": {
+			"name": "mezbaul abedin persian",
+			"id": "64fb5e2d391a368c9dd74ad7"
+		},
+		"status": "in-stock",
+		"sellCount": 170
 	},
 
 	{
-		"name": "Pran Nazirshail Rice - 5kg",
+		"productId": "65004b11abd70aab88212afa",
+		"price": 120,
+		"name": "pran nazirshail rice - 5kg",
 		"description": "Pran Nazirshail Rice. Fresh and Clean, Vacuum Packed. Pran Chinigura Rice can be use in Biriyani, Polau, Firni, Kheer, Khichuri.",
+		"unit": "bag",
+		"quantity": 10,
 		"imageURLs": [
 			"https://chaldn.com/_mpimage/pran-nazirshail-rice-5-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D48089&q=low&v=1&m=400&webp=1",
 			"https://chaldn.com/_mpimage/pran-nazirshail-rice-5-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D48089&q=low&v=1&m=400&webp=1"
 		],
-		"unit": "bag",
 		"category": "Rice",
-		"quantity": 10,
 		"brand": {
 			"name": "Pran",
 			"id": "64fb1f2908685a1bed9af0f4"
-		}
+		},
+		"store": {
+			"name": "sylhet",
+			"id": "64fb20572e4d38ec42591331"
+		},
+		"suppliedBy": {
+			"name": "mezbaul abedin persian",
+			"id": "64fb5e2d391a368c9dd74ad7"
+		},
+		"status": "in-stock",
+		"sellCount": 10
 	},
 
 	{
-		"name": "Fresh Chinigura Rice",
+		"productId": "65004b11abd70aab88212afb",
+		"price": 120,
+		"name": "fresh chinigura rice",
 		"description": "Fresh Chinigura Rice. Fresh and Clean, Vacuum Packed. Fresh Chinigura Rice can be use in Biriyani, Polau, Firni, Kheer, Khichuri.",
+		"unit": "kg",
+		"quantity": 10,
 		"imageURLs": [
 			"https://chaldn.com/_mpimage/pran-nazirshail-rice-5-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D48089&q=low&v=1&m=400&webp=1",
 			"https://chaldn.com/_mpimage/pran-nazirshail-rice-5-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D48089&q=low&v=1&m=400&webp=1"
 		],
-		"unit": "kg",
 		"category": "Rice",
-		"quantity": 10,
 		"brand": {
 			"name": "Fresh",
 			"id": "64fb593427e2ffe99977ae4e"
-		}
+		},
+		"store": {
+			"name": "sylhet",
+			"id": "64fb20572e4d38ec42591331"
+		},
+		"suppliedBy": {
+			"name": "abdullah al fahim",
+			"id": "64fb5e1d391a368c9dd74ad3"
+		},
+		"status": "in-stock",
+		"sellCount": 100
 	},
 
 	{
-		"name": "Fresh Fortified Soyabean Oil - 5ltr",
+		"productId": "65004b11abd70aab88212afc",
+		"price": 120,
+		"name": "fresh fortified soyabean oil - 5ltr",
 		"description": "Fresh Fortified Soyabean Oil follows 3 steps of refining process-Perfect Degumming & Neutralization, Balanced De-colorization and Five steps Deodorization to ensure right ratio of Omega 3 & 6 and intact Beta-carotene in Soyabean Oil. Fresh soyabean oil contain vitamin A. Its fresh and healthy.",
+		"unit": "litre",
+		"quantity": 10,
 		"imageURLs": [
 			"https://chaldn.com/_mpimage/pran-nazirshail-rice-5-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D48089&q=low&v=1&m=400&webp=1",
 			"https://chaldn.com/_mpimage/pran-nazirshail-rice-5-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D48089&q=low&v=1&m=400&webp=1"
 		],
-		"unit": "litre",
 		"category": "Oil",
-		"quantity": 10,
 		"brand": {
 			"name": "Fresh",
 			"id": "64fb593427e2ffe99977ae4e"
-		}
+		},
+		"store": {
+			"name": "sylhet",
+			"id": "64fb20572e4d38ec42591331"
+		},
+		"suppliedBy": {
+			"name": "abdullah al fahim",
+			"id": "64fb5e1d391a368c9dd74ad3"
+		},
+		"status": "in-stock",
+		"sellCount": 100
 	},
 
 	{
-		"name": "Fresh Refined Sugar",
+		"productId": "65004b11abd70aab88212afd",
+		"price": 120,
+		"name": "fresh refined sugar",
 		"description": "Fresh Refined sugar is a modern processes of without touching hand to protect the health of assurance. Fresh refined sugar is completely acid, fecal residues free and neat and clean, healthy, granulated sugar.",
+		"unit": "kg",
+		"quantity": 10,
 		"imageURLs": [
 			"https://chaldn.com/_mpimage/pran-nazirshail-rice-5-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D48089&q=low&v=1&m=400&webp=1",
 			"https://chaldn.com/_mpimage/pran-nazirshail-rice-5-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D48089&q=low&v=1&m=400&webp=1"
 		],
-		"unit": "kg",
 		"category": "Sugar",
-		"quantity": 10,
 		"brand": {
 			"name": "Fresh",
 			"id": "64fb593427e2ffe99977ae4e"
-		}
+		},
+		"store": {
+			"name": "dhaka",
+			"id": "64fb204e2e4d38ec4259132f"
+		},
+		"suppliedBy": {
+			"name": "abdullah al fahim",
+			"id": "64fb5e1d391a368c9dd74ad3"
+		},
+		"status": "in-stock",
+		"sellCount": 10
 	}
 ]

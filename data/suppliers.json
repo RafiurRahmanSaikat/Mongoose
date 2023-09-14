@@ -1,0 +1,71 @@
+[
+  {
+    "name": "Mezbaul Abedin Persian",
+    "email": "mezba.pran@test.com",
+    "brand": {
+      "name": "Pran",
+      "id": "64fb1f2908685a1bed9af0f4"
+    },
+    "contactNumber": ["01544446682", "02222222222"],
+    "emergencyContactNumber": "011111111",
+    "tradeLicenseNumber": 1111111111,
+    "presentAddress": "944 Honduras Street",
+    "permanentAddress": "944 Ghana Street",
+    "location": "chattogram",
+    "imageURL": "https://cdn.risingbd.com/media/imgAll/2017February/bg/NID20170312184614.jpg",
+    "nationalIdCardIamgeURL": "https://cdn.risingbd.com/media/imgAll/2017February/bg/NID20170312184614.jpg",
+    "status": "active"
+  },
+  {
+    "name": "Abdullah Al Fahim",
+    "email": "fahim.teer@test.com",
+    "brand": {
+      "name": "Fresh",
+      "id": "64fb1eea08685a1bed9af0ef"
+    },
+    "contactNumber": ["01111111111", "01544446682"],
+    "emergencyContactNumber": "011111111",
+    "tradeLicenseNumber": 1111111111,
+    "presentAddress": "944 Uganda Street",
+    "permanentAddress": "944 Ghana Street",
+    "location": "dhaka",
+    "imageURL": "https://cdn.risingbd.com/media/imgAll/2017February/bg/NID20170312184614.jpg",
+    "nationalIdCardIamgeURL": "https://cdn.risingbd.com/media/imgAll/2017February/bg/NID20170312184614.jpg",
+    "status": "active"
+  },
+
+  {
+    "name": "Jhankar Mahbub",
+    "email": "jhankar.rupchanda@test.com",
+    "brand": {
+      "name": "Fresh",
+      "id": "64fb1eea08685a1bed9af0ef"
+    },
+    "contactNumber": ["01111111111", "01544446682"],
+    "emergencyContactNumber": "011111111",
+    "tradeLicenseNumber": 1111111111,
+    "presentAddress": "944 Honduras Street",
+    "permanentAddress": "944 Ghana Street",
+    "location": "dhaka",
+    "imageURL": "https://cdn.risingbd.com/media/imgAll/2017February/bg/NID20170312184614.jpg",
+    "nationalIdCardIamgeURL": "https://cdn.risingbd.com/media/imgAll/2017February/bg/NID20170312184614.jpg",
+    "status": "active"
+  },
+  {
+    "name": "Rasel Ahmed",
+    "email": "rasel.fresh@test.com",
+    "brand": {
+      "name": "Fresh",
+      "id": "64f6c341933b5cce318b20e5"
+    },
+    "contactNumber": "01111111111",
+    "emergencyContactNumber": "011111111",
+    "tradeLicenseNumber": 1111111111,
+    "presentAddress": "944 Honduras Street",
+    "permanentAddress": "944 Ghana Street",
+    "location": "chattogram",
+    "imageURL": "https://cdn.risingbd.com/media/imgAll/2017February/bg/NID20170312184614.jpg",
+    "nationalIdCardIamgeURL": "https://cdn.risingbd.com/media/imgAll/2017February/bg/NID20170312184614.jpg",
+    "status": "active"
+  }
+]

@@ -6,4 +6,7 @@ router.route("/")
     .get(storeController.getAllStore)
     .post(storeController.createAStore)
 
+router.route("/bluk")
+    .post(storeController.createManyStore)
+
 module.exports = router
